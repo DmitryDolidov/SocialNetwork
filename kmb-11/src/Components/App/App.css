@@ -1,0 +1,6 @@
+.wrapper {
+    display: flex;
+    height: 500px;
+    margin: 20px;
+    background-color: blueviolet;
+}

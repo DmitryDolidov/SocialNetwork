@@ -1,0 +1,60 @@
+.friendAvatar {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.friendAvatar img {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+.friendLink {
+    text-decoration: none;
+    text-align: center;
+}
+.friendBox hr {
+    width: 60%;
+    height: 2px;
+    background-color: #aaaaaa;
+}
+.friendBox {
+    width: 60%;
+    margin: 0 auto;
+}
+.searchBox {
+    width: 50%;
+    height: 80px;
+    background-color: #c2c8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.searchBox input {
+    width: 80%;
+    height: 30px;
+    font-family: Georgia;
+    padding: 3px;
+    font-size: 16px;
+}
+.alsoView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin: 30px auto;
+    font-style: italic;
+    font-family: Georgia;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.error {
+    color: red;
+    margin: 10px auto;
+    text-align: center;
+}

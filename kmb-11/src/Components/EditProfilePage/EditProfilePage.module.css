@@ -1,0 +1,121 @@
+.page-box {
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin: 0 auto;
+    width: 80%;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0px 20px;
+    min-height: 600px;
+}
+.header {
+     flex: 1;
+     background-color: #41ff5d;
+     height: 100px;
+     margin: 5px 20px 0px 20px;
+ }
+.content {
+    flex: 5;
+    background-color: white;
+    min-height: 600px;
+}
+.titul {
+    font-family: Cambria;
+    text-align: center;
+}
+.editInformation h3 {
+    font-family: Cambria;
+    margin-left: 50px;
+}
+.mainInformation, .photo, .contacts {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #aaffc6;
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.editInformation button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 20px;
+    color: white;
+    background-color: darkorange;
+    font-family: Georgia;
+    font-style: italic;
+    border:none;
+}
+.editInformation {
+    margin-bottom: 50px;
+}
+.editInformation label {
+    font-size: 15px;
+    font-weight: 500;
+}
+.editInformation input {
+    box-shadow: 0 0 3px #aaa;
+    width: 60%;
+    height: 20px;
+    padding: 10px;
+    background-color: #c2c8ff;
+    text-decoration: none;
+    resize: none;
+    border: 1px solid grey;
+    color: navy;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+input[type=checkbox] {
+    border: none;
+    box-shadow: none;
+}
+.field {
+    margin: 10px;
+    padding-left: 20%;
+}
+input[type=file] button {
+    width: 100px;
+}
+.fileField {
+    padding-left: 20%;
+}
+.editDataSuccess {
+    font-style: italic;
+    text-align: center;
+    padding-top: 5px;
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+}
+.editDataError {
+    font-style: italic;
+    text-align: center;
+    padding-top: 5px;
+    width: 80%;
+    height: 35px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+}
+.workDescriptionField {
+    box-shadow: 0 0 3px #aaa;
+    width: 60%;
+    padding: 10px;
+    background-color: #c2c8ff;
+    text-decoration: none;
+    resize: none;
+    border: 1px solid grey;
+    color: navy;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+    height: 100px;
+}

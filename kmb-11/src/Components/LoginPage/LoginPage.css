@@ -1,0 +1,72 @@
+.login-box {
+    width: 300px;
+    margin: 15% auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 60px 60px 60px;
+}
+.main-blocks {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.main-blocks input {
+    background-color: azure;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+}
+.main-last-blocks {
+    align-items: center;
+    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 150px 70px 30px;
+}
+.main-last-blocks div {
+    text-align: center;
+}
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+label {
+    font-size: 19px;
+}
+button {
+    width: 70px;
+    height: 40px;
+}
+.status-bar-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.error-message {
+    display: block;
+    color: red;
+    grid-template-rows: auto;
+    grid-template-columns: 250px;
+    margin: 10px auto;
+}
+.login-captcha {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 120px 50px 50px;
+    grid-template-columns: 200px;
+    margin: 20px auto;
+}
+.login-captcha input {
+    background-color: azure;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+}
+.login-captcha span {
+    text-align: center;
+    font-style: italic;
+}

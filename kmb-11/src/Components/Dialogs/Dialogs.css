@@ -1,0 +1,69 @@
+.dialogs-content {
+    display: flex;
+}
+.dialogs-titul {
+    font-size: 26px;
+    padding: 10px 0 20px 50px;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.dialogs-users {
+    flex: 2;
+}
+.dialogs-messages {
+    flex: 6;
+}
+.correspondent_box {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.correspondent_avatar {
+    height: 30px;
+}
+.correspondent_avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 100px;
+}
+.correspondent_name {
+    font-style: italic;
+}
+.currentCorrespondentClass {
+    font-weight: bold;
+}
+.dialogs-messages {
+    border-left: #282c34 1px solid;
+}
+.dialogsMessage_box {
+    display: flex;
+    margin-bottom: 13px;
+}
+.dialogsMessage_user {
+    display: flex;
+    flex: 1;
+    padding-left: 15px;
+}
+.dialogsMessage_avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 100px;
+}
+.dialogsMessage_message {
+    margin-left: 50px;
+    flex: 4;
+    border: 1px solid darkblue;
+    background-color: azure;
+    font-style: italic;
+    padding: 3px 10px 5px 10px;
+    border-radius: 20px;
+}
+.defaultMessageText {
+    font-style: italic;
+    padding: 3px 10px 5px 10px;
+}
